@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>TechnoMind</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="cssindex.css">
+
+
+</head>
+<body class="body"> 
+
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="TechnoMind"
+  agent-id="3130f097-d2bb-4822-9255-106e35799eb9"
+  language-code="pt-br"
+></df-messenger>
+
+    <!--CABEÇALHO-->
+
+
+
+    <header>
+
+        <div class="px-3 py-2 text-bg-dark ">
+          
+          <div class="">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+              <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto" role="search">
+                <input type="search" class="form-control" placeholder="Pesquisar..." aria-label="Search">
+              </form>
+             
+              <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+                <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+              </a>
+    
+              <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+                <li>
+                  <a href="#" class="nav-link text-secondary">
+                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#home"></use></svg>
+                    Home
+                  </a>
+                </li>
+                <li>
+
+
+                  <a href="#" class="nav-link text-white">
+                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#grid"></use></svg>
+                    Produtos
+                  </a>
+                </li>
+                <li>
+
+
+                  <a href="#" class="nav-link text-blue">
+                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#grid"></use></svg>
+                    Entrar
+                  </a>
+                  
+                </li>
+                <li>
+
+
+                  <a href="#" class="nav-link text-red">
+                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#grid"></use></svg>
+                    Registrar
+                  </a>
+                  
+                </li>
+            
+              </ul>
+              
+            
+            </div>
+          </div>
+        </div>
+
+     
+      </header>
+
+
+      <br><br>
+      
+
+      <center>    
+      <h1 id="tecnomind">TECHNOMIND</h1>
+      </center>  
+
+
+      <br><br>
+
+
+
+      <br><br>
+      <br><br>
+
+
+
+
+
+  <div class="container">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+      </ol>
+  
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="imagens/carousel1.jpg" alt="SobreNos" style="width:100%;">
+
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h2 style="color: rgb(0, 0, 0); text-align: center;">SOBRE NÓS</h2>
+              <br><br>
+
+              <p style="color: rgb(0, 0, 0);  font-family: calibri; font-size: 25px; text-align: center;" >Olá!!
+              Somos um grupo de jovens entre 16 e 20 anos, cursando o Técnico em Desenvolvimento de Sistemas, na ETEC de Registro/SP.
+              Aqui falaremos sobre assuntos relacionados a tecnologia voltada para cegos e idosos. 
+              Fique à vontade para interagir, contribuir e tirar suas dúvidas!
+              </p>
+              <br><br><br><br><br><br><br><br>
+            </div>
+          </div>
+        </div>
+  
+        <div class="item">
+          <img src="imagens/carousel2.jpg" alt="SobreProjeto" style="width:100%;">
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h2 style="color: rgb(0, 0, 0); text-align: center;">SOBRE O PROJETO GUIA BEN</h2>
+              <br><br>
+              <p style="color:rgb(0, 0, 0);  font-family: calibri; font-size: 20px; text-align: center;">
+                O nosso projeto consiste no aprimoramento de uma bengala, integrado a tecnologia, na qual facilitará  a locomoção de pessoas cegas e idosas.
+                A bengala possui capacidade de identificar objetos e informar seu usuário, afim de diminuir acidentes durante seu deslocamento.
+                O objetivo do nosso projeto é promover a funcionalidade, relacionada à atividade e participação, de pessoas cegas e idosos, visando a autonomia, independência
+                qualidade de vida, aumento da autoestima e inclusão social dos mesmos.
+                </p >
+                 <p class="citacao" style="color: rgb(0, 0, 0);  font-family: calibri; font-size: 15px; text-align: center;">
+               "O importante não é vencer todos os dias, mas lutar sempre."
+                                    
+                <p class="waldemar" style="color: rgb(0, 0, 0);  font-family: calibri; font-size: 15px; text-align: center;">
+                
+                 <i> - Waldemar Valle Martins</i>
+                </p>
+              <br><br><br><br>
+                
+            </div>
+          </div>
+        </div>
+      
+   
+      </div>
+  
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  
+
+
+
+  <br><br>
+    <br><br> 
+
+
+    <section id="av">   <!--AVALIAÇÕES-->
+
+      
+      <br><br>
+      <br><br>
+ <center><h2>Avaliações Destaques</h2></center>
+      <br><br><br>
+        <div class="row" class="avaliacao">
+        
+           <!-- <div class="col-md-2 col-sm-12 text-centered">
+                <img src="imagens/imagem4.jpg" class="img-fluid img-thumbnail" alt="Image" height="100" width="100">
+                 <br> <br>
+                <img src="imagens/star.png"s1"  height="15" width="15"></a>
+                    
+                <a href="javascript:void(0)" onclick="Avaliar(2)">
+                <img src="imagens/star.png" id="s2"  height="15" width="15"></a>
+                    
+                <a href="javascript:void(0)" onclick="Avaliar(3)">
+                <img src="imagens/star.png" id="s3"  height="15" width="15"></a>
+                    
+                <a href="javascript:void(0)" onclick="Avaliar(4)">
+                <img src="imagens/star.png" id="s4"  height="15" width="15"></a>
+                
+                <a href="javascript:void(0)" onclick="Avaliar(4)">
+                <img src="imagens/estrelavazia.png" id="s4"  height="15" width="15"></a>
+
+                    <p class="lead">Camila Soares</p>
+                    <p>Descrição do Texto</p>
+     
+        </div>
+          <div class="col-md-2 col-sm-12 text-centered ">
+            <img src="imagens/imagem1.jpg" class="img-fluid img-thumbnail" alt="Image" height="100" width="100">
+            
+            <br> <br>
+                <img src="imagens/star.png"s1" height="15" width="15"></a>
+
+                <a href="javascript:void(0)" onclick="Avaliar(2)">
+                <img src="imagens/star.png" id="s2"  height="15" width="15"></a>
+
+                <a href="javascript:void(0)" onclick="Avaliar(3)">
+                <img src="imagens/star.png" id="s3"  height="15" width="15"></a>
+
+                <a href="javascript:void(0)" onclick="Avaliar(4)">
+                <img src="imagens/star.png" id="s4"  height="15" width="15"></a>
+
+                <a href="javascript:void(0)" onclick="Avaliar(5)">
+                <img src="imagens/star.png" id="s5"  height="15" width="15"></a>
+
+            <p class="lead">Leticia Muniz</p>
+            <p>Descrição do Texto</p>
+        </div>
+
+            <div class="col-md-2 col-sm-12 text-centered">
+                <img src="imagens/imagem2.jpg" class="img-fluid img-thumbnail" alt="Image" height="100" width="100" >
+                <br> <br>
+                <img src="imagens/star.png"s1"  height="15" width="15"></a>
+                
+                <a href="javascript:void(0)" onclick="Avaliar(2)">
+                <img src="imagens/star.png" id="s2"  height="15" width="15"></a>
+                
+                <a href="javascript:void(0)" onclick="Avaliar(3)">
+                <img src="imagens/star.png" id="s3"  height="15" width="15"></a>
+                
+                <a href="javascript:void(0)" onclick="Avaliar(4)">
+                <img src="imagens/star.png" id="s4"  height="15" width="15"></a>
+                
+                <a href="javascript:void(0)" onclick="Avaliar(4)">
+                <img src="imagens/estrelavazia.png" id="s4"  height="15" width="15"></a>
+                
+                <p class="lead">Rogério Amorim</p>
+                <p>Descrição do Texto</p>
+            </div>
+                
+                <div class="col-md-2 col-sm-12 text-centered">
+                    <img src="imagens/imagem3.jfif" class="img-fluid img-thumbnail" alt="Image" height="100" width="100">
+                    <br> <br>
+                    <img src="imagens/star.png"s1"  height="15" width="15"></a>
+                    
+                    <a href="javascript:void(0)" onclick="Avaliar(2)">
+                    <img src="imagens/star.png" id="s2"  height="15" width="15"></a>
+                    
+                    <a href="javascript:void(0)" onclick="Avaliar(3)">
+                    <img src="imagens/star.png" id="s3" height="15" width="15"></a>
+                    
+                    <a href="javascript:void(0)" onclick="Avaliar(4)">
+                    <img src="imagens/star.png" id="s4"  height="15" width="15"></a>
+                    
+                    <a href="javascript:void(0)" onclick="Avaliar(4)">
+                    <img src="imagens/estrelavazia.png" id="s4"  height="15" width="15"></a>
+                    
+                    <p class="lead">Isaac Barbosa</p>
+                    <p>Descrição do Texto</p>
+                </div>
+
+                <div class="col-md-2 col-sm-12 text-centered">
+                    <img src="imagens/imagem5jpg.jpg" class="img-fluid img-thumbnail" alt="Image" height="100" width="100">
+                    <br> <br>
+                    <img src="imagens/star.png"s1"  height="15" width="15"></a>
+                    
+                    <a href="javascript:void(0)" onclick="Avaliar(2)">
+                    <img src="imagens/star.png" id="s2"  height="15" width="15"></a>
+                    
+                    <a href="javascript:void(0)" onclick="Avaliar(3)">
+                    <img src="imagens/star.png" id="s3"  height="15" width="15"></a>
+                    
+                    <a href="javascript:void(0)" onclick="Avaliar(4)">
+                    <img src="imagens/star.png" id="s4"  height="15" width="15"></a>
+                    
+                    <a href="javascript:void(0)" onclick="Avaliar(5)">
+                    <img src="imagens/star.png" id="s5"  height="15" width="15"></a>
+                    
+                    <p class="lead">Jonathan Carvalho</p>
+                    <p>Descrição do Texto</p>
+                </div>
+
+                <div class="col-md-2 col-sm-12 text-centered">
+                    <img src="imagens/imagem6jpg.jpg" class="img-fluid img-thumbnail" alt="Image" height="100" width="100">
+                    <br> <br>
+                    <img src="imagens/star.png"s1" height="15" width="15"></a>
+                    
+                    <a href="javascript:void(0)" onclick="Avaliar(2)">
+                    <img src="imagens/star.png" id="s2"  height="15" width="15"></a>
+                    
+                    <a href="javascript:void(0)" onclick="Avaliar(3)">
+                    <img src="imagens/star.png" id="s3" height="15" width="15"></a>
+                    
+                    <a href="javascript:void(0)" onclick="Avaliar(4)">
+                    <img src="imagens/star.png" id="s4"  height="15" width="15"></a>
+                    
+                    <a href="javascript:void(0)" onclick="Avaliar(5)">
+                    <img src="imagens/star.png" id="s5"  height="15" width="15"></a>
+                        
+                    <p class="lead">Nicolas Batista</p>
+                    <p>Descrição do Texto</p>
+                </div> -->
+
+        </div>
+      </div>
+      <br><br>
+      <br><br>
+<center> <div class="box">
+  <a href="avaliacao.html"><font color="black">Enviar Avaliação</font></a>
+</div></center>
+      <br><br>
+      <br><br>
+</section>    
+<section>
+  <br><br>
+  <div>
+    <br><br>
+    <br><br> 
+    <div class="container">
+      <img class="imgdefic" src="imagens/deficiente.jpg" width="250" height="250" padding-left="200" alt="img"/><br><br>
+     
+        <p class="histdefic"><B>RECADO DE UM DEFICIENTE VISUAL! </B><BR><BR>
+          
+          Eu perdi um pouco de minha visão aos quatro anos. Bastante visão aos dezesseis e praticamente tudo do pouco que me restava uns três anos depois.<br>
+  
+          Vou ser muito franco e sincero. Tive momentos difíceis na hora de estudar, na hora de querer namorar, na hora de querer dançar em uma festa.<br>
+          
+          Não é fácil se adaptar ao mundo quando não se enxerga, mas é importante entender que poucas coisas realmente valiosas são fáceis.<br>
+          
+          Rapidamente, percebi que tinha só duas opções. Eu podia ficar fechado em casa, chorando, porque era uma vítima, ou podia sair e viver a vida.<br>
+          
+          Foi fácil entender isso intelectualmente. Emocionalmente, demorei um pouco para aceitar esta simples lógica.<br>
+          
+          Ficando em casa, eu estaria garantindo que nada do que eu queria jamais seria possível.
+      
+          Eu queria trabalhar, ter responsabilidade, ser produtivo, ser amado, casar, ser independente. Nada disso me seria garantido se eu não me arriscasse e não fosse à luta.<span id="pontos">..</span>   
+          <span id="mais">
+          Mas, se eu ficasse me sentindo uma vítima, era certo que nunca teria nada do que queria. A decisão era fácil, embora a luta não fosse.<br>
+          
+          Acredito que algo que sempre incomoda quando se está enfrentando um desafio, como a cegueira, é que acreditamos que tudo isso é injusto. Por que eu? Por que eu estou ficando cego?<br>
+          
+          Com certeza, outras pessoas se perguntam outras coisas como: por que eu tenho câncer? Por que não tenho dinheiro? Por que não sou o homem mais bonito ou popular?<br>
+          
+          O interessante, nisso tudo, é que sempre achamos que o nosso problema é o mais sério. Quando um jovem faz o maior drama, porque não tem a roupa da última moda ou um carro legal, temos vontade de rir.<br>
+          
+          Com certeza, não rimos de alguém mais maduro que está com uma doença séria. Mas pensamos, silenciosamente, pelo menos ele viveu uma vida feliz. Ou, pelo menos ele enxergou a vida inteira e viu coisas lindas. E eu?<br>
+          
+          O certo é que não damos valor a nada do que temos. Então, sempre parece que não temos nada. Só damos valor a coisas que perdemos, que antes nunca demos atenção.<br>
+          
+          Quando estava fazendo mestrado em Washington, triste por algum motivo, nem sei se era porque, como cego, estava tendo dificuldades ou se meu computador estava com problemas, escutei, através do rádio, as notícias de um professor universitário na Califórnia que era tetraplégico.<br>
+          
+          Como não podia usar seus braços e pernas, ele precisava pegar um lápis com sua boca e escrever no seu computador, apertando uma tecla de cada vez.<br>
+          
+          Imagine: eu me sentindo a maior vítima. No entanto, eu podia andar por todo o campus, sem ajuda de ninguém, podia escrever mais rápido à máquina do que qualquer pessoa na minha sala.<br>
+          
+          Aquele professor me ajudou a valorizar muitas coisas que eu não estava dando importância. Perguntei-me: o que é justo? O que é injusto?<br>
+          
+          É justo eu ter pernas quando não as utilizo para ganhar medalhas nas olimpíadas? Ou não as uso para ajudar o próximo e nem sequer as valorizo?<br>
+          
+          É justo eu ter um cérebro e não utiliza-lo ao máximo? É justo eu ter braços fortes e não usa-los para abraçar, demonstrar meu amor a quem, todos os dias, me dá tanto?<br>
+          
+          É justo eu ter uma vida e não me lembrar de agradecer aos meus pais por me terem permitido nascer? <br>
+          
+          Afinal, sabe-se de tantos que são mortos enquanto ainda são embriões ou fetos.<br>
+          
+          É justo eu ter uma esposa, um curso universitário, um coração que pulsa, rins que funcionam, pulmões fortes, mãos rijas, e não me recordar de dizer ao meu Criador: obrigado, Deus, por me teres criado?<br>
+  
+          <br><br>
+          
+          <b>A carta que acabamos de ler é de um jovem brasileiro, que trabalha em Nova Iorque há quatro anos.<br>
+          
+          Sua filosofia pessoal, com certeza, não alentará somente aqueles que estão enfrentando a cegueira física, mas também a todos aqueles de nós, portadores da cegueira espiritual que não nos permite enxergar as bênçãos que recebemos diariamente. Pensemos nisso e mudemos o foco das nossas vidas de lutas, dissabores e dificuldades para vidas de oportunidades, testes e aprendizado.</b>
+   </span>  </p>    
+
+
+      </div> 
+      <br>
+   <center><button onclick="leiaMais()" id="btnLeiaMais" class="box"> Ler Mais </button></center> 
+   <script type="text/javascript" src="home.js"></script>
+  
+  <br><br>
+    </section>
+<br><br><br><br>
+
+<footer class="bg-grey text-center text-white">
+
+  <div class="p-4 pb-0 center" style="background-color: rgb(143, 143, 143);">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+  <a href="https://www.facebook.com/"><svg xmlns="http://www.w3.org/2000/svg"  width="30" height="30" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3 8h-1.35c-.538 0-.65.221-.65.778v1.222h2l-.209 2h-1.791v7h-3v-7h-2v-2h2v-2.308c0-1.769.931-2.692 3.029-2.692h1.971v3z"/></svg></a>
+ <!-- Facebook -->
+    
+   <a href="https://twitter.com/"><svg xmlns="http://www.w3.org/2000/svg"  width="30" height="30" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.066 9.645c.183 4.04-2.83 8.544-8.164 8.544-1.622 0-3.131-.476-4.402-1.291 1.524.18 3.045-.244 4.252-1.189-1.256-.023-2.317-.854-2.684-1.995.451.086.895.061 1.298-.049-1.381-.278-2.335-1.522-2.304-2.853.388.215.83.344 1.301.359-1.279-.855-1.641-2.544-.889-3.835 1.416 1.738 3.533 2.881 5.92 3.001-.419-1.796.944-3.527 2.799-3.527.825 0 1.572.349 2.096.907.654-.128 1.27-.368 1.824-.697-.215.671-.67 1.233-1.263 1.589.581-.07 1.135-.224 1.649-.453-.384.578-.87 1.084-1.433 1.489z"/></svg></a>   
+      <!-- Twitter -->
+    
+      <svg xmlns="http://www.w3.org/2000/svg"  width="30" height="30"viewBox="0 0 24 24"><path d="M14.829 6.302c-.738-.034-.96-.04-2.829-.04s-2.09.007-2.828.04c-1.899.087-2.783.986-2.87 2.87-.033.738-.041.959-.041 2.828s.008 2.09.041 2.829c.087 1.879.967 2.783 2.87 2.87.737.033.959.041 2.828.041 1.87 0 2.091-.007 2.829-.041 1.899-.086 2.782-.988 2.87-2.87.033-.738.04-.96.04-2.829s-.007-2.09-.04-2.828c-.088-1.883-.973-2.783-2.87-2.87zm-2.829 9.293c-1.985 0-3.595-1.609-3.595-3.595 0-1.985 1.61-3.594 3.595-3.594s3.595 1.609 3.595 3.594c0 1.985-1.61 3.595-3.595 3.595zm3.737-6.491c-.464 0-.84-.376-.84-.84 0-.464.376-.84.84-.84.464 0 .84.376.84.84 0 .463-.376.84-.84.84zm-1.404 2.896c0 1.289-1.045 2.333-2.333 2.333s-2.333-1.044-2.333-2.333c0-1.289 1.045-2.333 2.333-2.333s2.333 1.044 2.333 2.333zm-2.333-12c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.958 14.886c-.115 2.545-1.532 3.955-4.071 4.072-.747.034-.986.042-2.887.042s-2.139-.008-2.886-.042c-2.544-.117-3.955-1.529-4.072-4.072-.034-.746-.042-.985-.042-2.886 0-1.901.008-2.139.042-2.886.117-2.544 1.529-3.955 4.072-4.071.747-.035.985-.043 2.886-.043s2.14.008 2.887.043c2.545.117 3.957 1.532 4.071 4.071.034.747.042.985.042 2.886 0 1.901-.008 2.14-.042 2.886z"/></svg>
+      <!-- Instagram -->
+    
+      <svg xmlns="http://www.w3.org/2000/svg"  width="30" height="30" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 16h-2v-6h2v6zm-1-6.891c-.607 0-1.1-.496-1.1-1.109 0-.612.492-1.109 1.1-1.109s1.1.497 1.1 1.109c0 .613-.493 1.109-1.1 1.109zm8 6.891h-1.998v-2.861c0-1.881-2.002-1.722-2.002 0v2.861h-2v-6h2v1.093c.872-1.616 4-1.736 4 1.548v3.359z"/></svg>
+      <!-- Linkedin -->
+     
+      <svg xmlns="http://www.w3.org/2000/svg"  width="30" height="30"viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm2.218 18.616c-.354.069-.468-.149-.468-.336v-1.921c0-.653-.229-1.079-.481-1.296 1.56-.173 3.198-.765 3.198-3.454 0-.765-.273-1.389-.721-1.879.072-.177.312-.889-.069-1.853 0 0-.587-.188-1.923.717-.561-.154-1.159-.231-1.754-.234-.595.003-1.193.08-1.753.235-1.337-.905-1.925-.717-1.925-.717-.379.964-.14 1.676-.067 1.852-.448.49-.722 1.114-.722 1.879 0 2.682 1.634 3.282 3.189 3.459-.2.175-.381.483-.444.936-.4.179-1.413.488-2.037-.582 0 0-.37-.672-1.073-.722 0 0-.683-.009-.048.426 0 0 .46.215.777 1.024 0 0 .405 1.25 2.353.826v1.303c0 .185-.113.402-.462.337-2.782-.925-4.788-3.549-4.788-6.641 0-3.867 3.135-7 7-7s7 3.133 7 7c0 3.091-2.003 5.715-4.782 6.641z"/></svg>
+      <!-- Github -->
+    
+          </section>
+  
+   
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+
+ <div class="techno"> ©TechnoMind 2022 </div>  
+  </div>
+  <!-- Copyright -->
+</footer>
+</body>
+</html>
