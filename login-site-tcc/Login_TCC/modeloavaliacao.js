@@ -1,6 +1,6 @@
 const db = [
   {
-    nome: "Camila Soares",
+    nome: "Camila 1",
     descricao: "descrição padrao",
     imagem: "./imagens/imagem1.jpg",
   },
@@ -26,18 +26,35 @@ const db = [
   },
 ]
 
+const imagens = [
+  "./imagens/imagem1.jpg",
+  "./imagens/imagem2.jpg",
+  "./imagens/imagem4.jpg",
+  "./imagens/imagem5jpg.jpg",
+  "./imagens/imagem6jpg.jpg",
+]
+
+const nomes = [
+  "Emanuel Costela",
+  "Caio Rezende",
+  "Fernanda das Neves",
+  "Levi da Costa",
+  "Stella Teixeira",
+]
+
 class criaAvaliacao {
   static dom(obj) {
     const { nome, descricao, imagem } = obj
 
     const avaliacao = document.querySelector(".avaliacao")
+    // avaliacao.innerHTML = ""
     const card = document.createElement("div")
     const figure = document.createElement("figure")
     const img = document.createElement("img")
     const nomeSpan = document.createElement("span")
     const descricaoSpan = document.createElement("span")
 
-    avaliacao.appendChild(card)
+    avaliacao?.appendChild(card)
     card.appendChild(figure)
     figure.appendChild(img)
     card.appendChild(nomeSpan)
@@ -58,13 +75,43 @@ class Avaliacao {
   }
 }
 
-function dbAvaliacao() {
-  db.forEach((element) => {
+function dbAvaliacao(array) {
+  array.forEach((element) => {
     const newClass = new Avaliacao(element)
     criaAvaliacao.dom(newClass)
   })
 }
 
-dbAvaliacao()
+dbAvaliacao(db)
 
-export { db, Avaliacao }
+const novaAvaliacao = (evt) => {
+  //   // const inputValue = document.getElementById("descricao")
+  //   // console.log(input)
+  const inputValue = ""
+  const numerosAleatorios = Math.floor(Math.random() * 4)
+  const obj = {
+    nome: nomes[numerosAleatorios],
+    descricao: inputValue,
+    imagem: imagens[numerosAleatorios],
+  }
+  const avaliacao = new Avaliacao(obj)
+  db.shift()
+  db.push(avaliacao)
+  console.log(db)
+
+  dbAvaliacao(db)
+}
+
+console.log(db)
+const botaoAvaliacao = () => {
+  const form = document.querySelector(".form")
+  const botao = document.createElement("button")
+  botao.classList.add("botaoEnviar")
+  botao.innerText = "Enviar"
+  form?.appendChild(botao)
+  botao.addEventListener("click", novaAvaliacao)
+
+  return botao
+}
+
+botaoAvaliacao()
